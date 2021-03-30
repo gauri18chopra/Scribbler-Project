@@ -1,0 +1,103 @@
+#createBtn
+{
+    margin-right: 50%;
+    
+}
+
+#titleform
+{
+    margin-bottom: 50px;
+}
+
+body{
+    
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  margin: 0 !important;
+  background-size: 100% cover !important;
+  overflow: hidden;
+  display: block;
+  overflow-y: scroll;
+}
+.header
+{
+    
+    width:100%;
+}
+
+.btn
+{
+    float:right;
+}
+
+#btn1
+{
+    margin-right: 10px;
+}
+
+#btn2
+{
+    margin-left:10px;
+}
+
+.topButtons
+{
+   background-color:rgb(139, 139, 233);
+    float:right;
+ padding: 10px 10px 10px 10px;
+ color:white;
+
+}
+
+.btns
+{
+    
+    padding:10px 10px 10px 10px;
+    background-color:rgb(252, 182, 54);
+    color: black;
+    
+}
+.main
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -100px;
+  
+    
+}
+
+
+#pageTitle{
+   
+    font-family: "Satisfy",cursive;
+    color: blue;
+    font-size:35px;
+    margin-bottom: 0px;
+}
+.middleText
+{
+  font-family: "Satisfy",cursive;
+  color:blue;
+    font-size:15px;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
